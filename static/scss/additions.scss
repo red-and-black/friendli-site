@@ -1,0 +1,42 @@
+$light_grey: #c0c3c6;
+$lightest_grey: #d7dbe0;
+$dark_grey: #292e33;
+$darkest_grey: #24282b;
+$watermelon: #ef5d60;
+
+/* Background */
+.bg-dark-grey {
+  background-color: $dark_grey;
+}
+
+.bg-darkest-grey {
+  background-color: $darkest_grey;
+}
+
+.bg-watermelon {
+  background-color: $watermelon;
+}
+
+/* Text */
+.link:hover {
+  text-decoration: none;
+}
+
+.text-light-grey {
+  color: $light_grey;
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 15px $dark_grey;
+}
+
+/* Buttons */
+.btn-watermelon {
+  background-color: $watermelon;
+  color: $lightest_grey;
+}
+
+/* Positioning */
+.absolute {
+  position: absolute;
+}
