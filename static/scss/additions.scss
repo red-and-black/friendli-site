@@ -40,3 +40,83 @@ $watermelon: #ef5d60;
 .absolute {
   position: absolute;
 }
+
+
+/* Carousel */
+@media (max-width: 575.98px) {
+  .carousel {
+    width: 300px;
+  }
+}
+
+@media (min-width: 576px) {
+  .carousel {
+    width: 400px;
+  }
+}
+
+.carousel-indicators {
+  bottom:-50px;
+}
+
+.carousel-control-next {
+  bottom:-50px;
+}
+
+.carousel-control-prev {
+  bottom:-50px;
+}
+
+.carousel-inner {
+   margin-bottom:50px;
+}
+
+.border-light-grey {
+  border-color: $light_grey;
+}
+
+
+@media (max-width: 575.98px) {
+  .carousel-control-next {
+    margin-right: -36px;
+  }
+  .carousel-control-prev {
+    margin-left: -36px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .carousel-control-next {
+    margin-right: -60px;
+  }
+  .carousel-control-prev {
+    margin-left: -60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .carousel-control-next {
+    margin-right: -60px;
+  }
+  .carousel-control-prev {
+    margin-left: -60px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px)  {
+  .carousel-control-next {
+    margin-right: -70px;
+  }
+  .carousel-control-prev {
+    margin-left: -70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-control-next {
+    margin-right: -100px;
+  }
+  .carousel-control-prev {
+    margin-left: -100px;
+  }
+}
